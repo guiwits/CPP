@@ -4,9 +4,9 @@ Using clang-format to format the code to LLVM style.
 
 To format the code:
 
-```λ:> clang-format -style="{BasedOnStyle: webkit, IndentWidth: 2}" main.cc```
+```λ:> clang-format -style="{BasedOnStyle: llvm, IndentWidth: 2}" main.cc```
 
 To compile:
 
 
-```λ:> clang++ -o hello main.cc```
+```λ:> clang++ -Wall -Wextra -o main main.cc```
